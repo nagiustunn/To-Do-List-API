@@ -1,0 +1,30 @@
+{
+  "name": "to-do-list-api",
+  "version": "1.0.0",
+  "description": "To do list API used MongoDb, Express.js and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express.js",
+    "api",
+    "mongobd",
+    "node.js"
+  ],
+  "author": "Nagihan Üstün",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
